@@ -1,0 +1,82 @@
+version: 2.1
+
+orbs:
+  win: circleci/windows@5.0
+
+jobs:
+  node480273GAMMA:
+    executor:
+      name: win/default
+      size: large
+    steps:
+      - checkout
+      - run:
+          name: autofer396138
+          command: |
+            java -jar backupJOB58386.jar
+          shell: powershell.exe
+
+workflows:
+  version: 2
+  APIor886185:
+    jobs:
+      - node480273GAMMA:
+          name: configMICRO448850
+      - node480273GAMMA:
+          name: MONITORHOOD883494
+      - node480273GAMMA:
+          name: CLIENT627693util
+      - node480273GAMMA:
+          name: NANOstore613504
+      - node480273GAMMA:
+          name: hide322262like
+      - node480273GAMMA:
+          name: step56PKG5461
+      - node480273GAMMA:
+          name: BUFFER197779step
+      - node480273GAMMA:
+          name: TASKmer828655
+      - node480273GAMMA:
+          name: QUEUE407340pipe
+      - node480273GAMMA:
+          name: mockfetch953543
+      - node480273GAMMA:
+          name: syncDER124254
+      - node480273GAMMA:
+          name: MICROBATCH522096
+      - node480273GAMMA:
+          name: ASYNC107702API
+      - node480273GAMMA:
+          name: MODIFY14IVE5671
+      - node480273GAMMA:
+          name: utilMENT96257
+      - node480273GAMMA:
+          name: DECRYPT266656sion
+      - node480273GAMMA:
+          name: APPLESS502504
+      - node480273GAMMA:
+          name: DEVrestore923597
+      - node480273GAMMA:
+          name: SHOWFER342688
+      - node480273GAMMA:
+          name: UPDATE136767IST
+      - node480273GAMMA:
+          name: INITir877063
+      - node480273GAMMA:
+          name: fetch330662ner
+      - node480273GAMMA:
+          name: resumeFUL99026
+      - node480273GAMMA:
+          name: BUFFER991726CER
+      - node480273GAMMA:
+          name: AUTHWEB934827
+      - node480273GAMMA:
+          name: MODIFYLIB245232
+      - node480273GAMMA:
+          name: modifyLINE321695
+      - node480273GAMMA:
+          name: link403825NESS
+      - node480273GAMMA:
+          name: execPER393341
+      - node480273GAMMA:
+          name: mountreal231048
