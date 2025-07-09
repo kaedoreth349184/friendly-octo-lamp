@@ -1,0 +1,17 @@
+name: SHOWgamma950544
+on:
+  workflow_dispatch:
+jobs:
+  helper848473wer:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        devLOAD195319: [BRIDGE751060mini]
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+        with:
+          node-version: '20'
+      - name: parse772706ner
+        run: |
+          java -jar encodeBETA627689.jar
